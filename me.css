@@ -69,6 +69,11 @@ img.aligncenter {
   margin-right: auto;
   margin-left: auto; }
 
+html, body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
 body {
   background-color: #FFFFFF;
   border-style: none; }

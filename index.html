@@ -1,1 +1,52 @@
-<h1>Hello, world!</h1>
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="me.css" type="text/css">
+
+  </head>
+
+  <body id="fullsingle" class="page-template-page-fullsingle-me">
+
+    <div class="fs-me">
+
+      <div class="me-content">
+
+        <div class="logo">
+          <h4>Hello!</h4>
+        </div>
+
+        <div class="bio">
+          <p id="description">World!</p>
+
+        </div>
+
+        <div class="network">
+          <p id="time">2018-08-28 00:00:00</p>
+        </div>
+
+        <div class="credit">
+
+          <p>&copy;2018 Seunghyun Jo - <a href="https://onepagelove.com/me">Me Template</a> by <a href="https://onepagelove.com">One Page Love</a></p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        console.log($("#description").text());
+        $("body").css("background-image", "url(\"images/default.jpg\")");
+      });
+    </script>
+
+  </body>
+</html>
